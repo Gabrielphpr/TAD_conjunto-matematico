@@ -2,22 +2,18 @@
 
 Este projeto implementa um Tipo Abstrato de Dados (TAD) Conjunto utilizando duas estruturas de dados distintas: Árvores AVL e Listas Sequenciais Ordenadas. A escolha dessas estruturas foi baseada em suas características de busca eficiente, que são fundamentais para operações em conjuntos.
 
+As principais operações implementadas são:
+- Inserção e remoção de elementos
+- Função pertece (busca)
+- União e Interseção
+
 ## Árvore AVL
 
 A Árvore AVL foi escolhida por oferecer um balanceamento automático, garantindo que as operações básicas tenham complexidade O(log n) mesmo no pior caso. A altura média de uma árvore AVL é de aproximadamente 1.44*log(n), o que a torna mais eficiente que árvores rubro-negras para buscas.
 
-As principais operações implementadas são:
-- Inserção e remoção com balanceamento automático
-- Busca eficiente (pertence)
-- Operações de conjunto (união e interseção)
-
 ## Lista Sequencial Ordenada
 
-A lista sequencial ordenada utiliza um vetor dinâmico com elementos sempre mantidos em ordem. Apesar de inserções e remoções terem complexidade O(n) no caso médio, a busca binária proporciona operações de pertence com O(log n).
-
-As vantagens da lista aparecem especialmente quando:
-- Os elementos são inseridos em ordem crescente (inserção O(1))
-- A maioria das remoções ocorre no final da lista (remoção O(1))
+A lista sequencial ordenada utiliza um vetor dinâmico com elementos sempre mantidos em ordem. Apesar de inserções e remoções terem complexidade O(n) no caso médio, a busca binária proporciona operações de pertence com O(log n). As vantagens da lista aparecem especialmente quando os elementos são inseridos em ordem crescente (inserção O(1)) e quando observa-se que a maioria das remoções ocorre no final da lista (remoção O(1))
 
 ## Complexidade das Operações
 
