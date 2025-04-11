@@ -52,3 +52,6 @@ Foi desenvolvido vários casos teste que testam as funcionalidades de ambas as i
 ## Considerações Finais
 
 Este projeto demonstra como diferentes estruturas de dados podem ser utilizadas para implementar o mesmo TAD, cada uma com suas vantagens e desvantagens. A Árvore AVL se mostra superior para conjuntos dinâmicos com muitas operações de inserção/remoção, enquanto a Lista Sequencial é mais eficiente para conjuntos estáticos ou quando os elementos são inseridos em ordem.
+
+## Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
