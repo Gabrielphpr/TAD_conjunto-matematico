@@ -1,0 +1,2 @@
+Casos testes compostos em arquivos .IN e .OUT para verificar o funcionamento do código.
+os arquivos estão preparados para a primeira opção de estrutura (0). Para testar com a outra, é só mudar para 1 no início.
